@@ -93,7 +93,7 @@ h1 {
     border: none;
     display: inline-block;
     background-color: white;
-    background-image: url('/img/POKERAMKA.png');
+    background-image: url('../img/POKERAMKA.png');
     background-size: 100px 100px;
     background-repeat: no-repeat;
     overflow: hidden;
@@ -111,7 +111,7 @@ h1 {
     
 
 #menu{
-    margin: 56.8px 5px 0 8px;
+    margin: 25px 5px 0 8px;
     height: 100px;
     width: 310px;
     }
@@ -121,7 +121,7 @@ h1 {
     border: 3px solid red;
 }
 body{
-    background:  url('/img/bodyborder.png') no-repeat , url('/img/bgbody.png');
+    background: url('../img/bgbody.png');
     
     width: 320px;
     height: 568px;
@@ -133,7 +133,7 @@ body{
     width: 220px;
     height: 300px;
     margin: 50px 50px 0 50px;
-    background: white url('/img/animramka.png') no-repeat;
+    background: white url('../img/animramka.png') no-repeat;
 }
 img{
     margin-top: 140px;
