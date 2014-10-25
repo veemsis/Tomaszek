@@ -48,6 +48,7 @@ body {
 /* Portrait layout (default) */
 .app {
     /*background:url(../img/logo.png) no-repeat center top; /* 170px x 200px */
+    
     position:absolute;             /* position in the center of the screen */
     left:50%;
     top:50%;
@@ -91,7 +92,7 @@ h1 {
     height: 100px;
     border: none;
     display: inline-block;
-    
+    background-color: white;
     background-image: url('/img/POKERAMKA.png');
     background-size: 100px 100px;
     background-repeat: no-repeat;
@@ -106,6 +107,14 @@ h1 {
 .app{
     font-size: 5em;
     border: 3px solid red;
+}
+body{
+    background:  url('/img/bodyborder.png') no-repeat , url('/img/bgbody.png');
+    
+    width: 320px;
+    height: 568px;
+   
+   
 }
     
    
