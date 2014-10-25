@@ -96,14 +96,26 @@ h1 {
     background-image: url('/img/POKERAMKA.png');
     background-size: 100px 100px;
     background-repeat: no-repeat;
+    overflow: hidden;
+    
 }
+
+.borderbox > img {
+    height: 90%;
+    width: 90%;
+    margin: 5px 0 0 5px;
+   
+}
+
+    
+    
+
 #menu{
-    margin: 56.8px 5px 0 5px;
+    margin: 56.8px 5px 0 8px;
     height: 100px;
     width: 310px;
-    
-    
-}
+    }
+
 .app{
     font-size: 5em;
     border: 3px solid red;
